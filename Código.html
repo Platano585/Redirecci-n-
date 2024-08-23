@@ -1,0 +1,23 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redireccionando...</title>
+    <script>
+        function redirect() {
+            // Primer enlace
+            window.location.href = "https://wa.me/573225910869";
+
+            // Después de 3 segundos, redirige al segundo enlace
+            setTimeout(function() {
+                window.location.href = "https://wa.me/573181711127";
+            }, 3000);
+        }
+    </script>
+</head>
+<body onload="redirect()">
+    <p>Redireccionando... Por favor, espera un momento.</p>
+</body>
+</html>
